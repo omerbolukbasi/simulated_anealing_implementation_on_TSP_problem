@@ -19,8 +19,8 @@ solutions). In the end of the search T is small. If T is small then SA acts as a
 accepts mostly the best solutions.
 
 Temperature decrements whether linear:<br>
-𝑇𝑖 = 𝑇𝑖 − 𝑖 × 𝛽
+![image](https://user-images.githubusercontent.com/44832162/147352038-bb7acd27-927b-42ae-829d-64fc5e6b774b.png)
 <br>
 or geometric:<br>
-𝑇 = 𝛼 × 𝑇 𝛼 ∈ [0,1]
+![image](https://user-images.githubusercontent.com/44832162/147352055-339ea77d-035b-4d24-a1a4-a2d15126bb53.png)
 <br>
