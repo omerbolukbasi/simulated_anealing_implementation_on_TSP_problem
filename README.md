@@ -24,3 +24,5 @@ Temperature decrements whether linear:<br>
 or geometric:<br>
 ![image](https://user-images.githubusercontent.com/44832162/147352055-339ea77d-035b-4d24-a1a4-a2d15126bb53.png)
 <br>
+
+Within 2 experiments SA effectiveness with various parameters and GA-SA comparison is investigated. Simulation is coded in python with the stated python packages. Results are presented within the given academic paper. 
