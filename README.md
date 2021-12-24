@@ -1,8 +1,8 @@
-## Simulated Anealing Implementation on TSP Problem
+## SIMULATED ANEALING IMPLEMENTATION ON TRAVELLING SALESMAN PROBLEM
 <br>
 Genetic Simulated Anealing(SA) algorithm is implemented on Travelling Salesman Problem. Performance comparison of SA and a given Genetic Algorithm(GA) is done over a given TSP topology.
 
-## SIMULATED ANNEALING ALGORITHM<br>
+## Simulated Anealing Algorithm<br>
 
 Simulated Annealing(SA) mimics the physical annealing process. In the physical process material is 
 heated and slowly cooled towards a strong crystalline structure instead of metastable states. [1]
@@ -18,7 +18,9 @@ is also high which yields the algorithm acts as a random search (Accepts most of
 solutions). In the end of the search T is small. If T is small then SA acts as a local search because it 
 accepts mostly the best solutions.
 
-Temperature decrements whether linear:
+Temperature decrements whether linear:<br>
 𝑇𝑖 = 𝑇𝑖 − 𝑖 × 𝛽
-or geometric:
+<br>
+or geometric:<br>
 𝑇 = 𝛼 × 𝑇 𝛼 ∈ [0,1]
+<br>
